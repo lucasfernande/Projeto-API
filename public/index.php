@@ -27,6 +27,8 @@
     // Register routes
     require __DIR__ . '/../src/routes.php';
 
+    $container->get('db'); # acesso ao banco de dados
+
     // Run app
     $app->run();
 

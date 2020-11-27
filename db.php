@@ -25,7 +25,7 @@
         $table->text('descricao');
         $table->decimal('preco', 11, 2);
         $table->string('fabricante', 60);
-        $table->date('dataCriacao');
+        $table->timestamps();
     });
 
     # registros de teste
@@ -34,7 +34,8 @@
         'descricao' => 'Bla Bla',
         'preco' => 899.90,
         'fabricante' => 'Motorola',
-        'dataCriacao' => '2019-10-22'
+        'created_at' => '2019-10-22',
+        'updated_at' => '2019-10-22'
     ]);
 
     $db->table($tabela)->insert([
@@ -42,7 +43,8 @@
         'descricao' => 'Bla Bla',
         'preco' => 4999.00,
         'fabricante' => 'Apple',
-        'dataCriacao' => '2020-01-10'
+        'created_at' => '2020-10-01',
+        'updated_at' => '2020-10-01'
     ]);
 
 ?>    

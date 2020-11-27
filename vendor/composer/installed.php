@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '9e8d305191fb5f1beafdd53fd0d65812e29ac0c8',
+    'reference' => 'b1d3b8a0e0f84a18714a2fa280129856861425fb',
     'name' => 'slim/slim-skeleton',
   ),
   'versions' => 
@@ -404,7 +404,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '9e8d305191fb5f1beafdd53fd0d65812e29ac0c8',
+      'reference' => 'b1d3b8a0e0f84a18714a2fa280129856861425fb',
     ),
     'symfony/console' => 
     array (
