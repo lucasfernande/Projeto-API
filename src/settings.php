@@ -17,7 +17,6 @@ return [
         ],
 
         // DB settings
-
         'db' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
@@ -27,6 +26,9 @@ return [
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => ''
-        ]
+        ],
+
+        // Secret
+        'secretKey' => '9298550749473a8f3475f17cd26d35164dc3334b'
     ],
 ];

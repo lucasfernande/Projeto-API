@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b1d3b8a0e0f84a18714a2fa280129856861425fb',
+    'reference' => '3f25a63372d5a46c9af98a2773a2a3cfad6914d2',
     'name' => 'slim/slim-skeleton',
   ),
   'versions' => 
@@ -28,6 +28,15 @@
       array (
       ),
       'reference' => 'd56bf6102915de5702778fe20f2de3b2fe570b5b',
+    ),
+    'firebase/php-jwt' => 
+    array (
+      'pretty_version' => 'v5.2.0',
+      'version' => '5.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'feb0e820b8436873675fd3aca04f3728eb2185cb',
     ),
     'illuminate/collections' => 
     array (
@@ -404,7 +413,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b1d3b8a0e0f84a18714a2fa280129856861425fb',
+      'reference' => '3f25a63372d5a46c9af98a2773a2a3cfad6914d2',
     ),
     'symfony/console' => 
     array (
